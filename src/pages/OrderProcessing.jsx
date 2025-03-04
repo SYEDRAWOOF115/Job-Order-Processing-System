@@ -56,8 +56,8 @@ const OrderProcessing = () => {
         <ActionButton label="Hold" icon={PauseIcon} color="bg-yellow-500" />
         <ActionButton label="Resume" icon={CheckIcon} color="bg-blue-500" />
         <ActionButton label="Reset" icon={RefreshIcon} color="bg-gray-500" />
-        <ActionButton label="Enable Feeding" icon={ChevronDoubleRightIcon} color="bg-indigo-500" />
-        <ActionButton label="Next Receiver" icon={ArrowRightIcon} color="bg-purple-500" />
+        {/* <ActionButton label="Enable Feeding" icon={ChevronDoubleRightIcon} color="bg-indigo-500" />
+        <ActionButton label="Next Receiver" icon={ArrowRightIcon} color="bg-purple-500" /> */}
         <ActionButton label="Emergency" icon={ExclamationIcon} color="bg-red-700" />
       </div>
 
