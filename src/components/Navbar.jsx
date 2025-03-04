@@ -17,12 +17,7 @@ const Navbar = () => {
             <FaSearch className="text-slate-600" />
           </button>
         </form>
-        {/* <div className="space-x-8">
-        <Link to="/" >
-          Home
-        </Link>
-        <Link to="/jobs" >Jobs</Link>
-        </div> */}
+        
         <ul className="flex gap-4">
           <Link to="/">
             <li className="hidden sm:inline text-slate-900 hover:underline">
@@ -37,6 +32,11 @@ const Navbar = () => {
           <Link to="/Sign_in">
             <li className="hidden sm:inline text-slate-900 hover:underline">
               Sign in
+            </li>
+          </Link>
+          <Link to="/orders">
+            <li className="hidden sm:inline text-slate-900 hover:underline">
+              Orders
             </li>
           </Link>
           </ul>
